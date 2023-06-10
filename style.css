@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  margin: 50;
+  padding: 50;
+  box-sizing: inherit;
+}
+html {
+  font-size: small;
+  box-sizing: inherit;
+}
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 46%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+td {
+  /* position: relative; */
+  /* backdrop-filter: blur(10px); */
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: text-top;
+  border: 5px groove rgb(238, 231, 231);
+  padding: 10px;
+  background-color: rgb(163, 175, 48);
+  background-image: linear-gradient(to top left, #89858a 0%, #280d68 100%);
+  font-family: sans-serif;
+  font-weight: 20;
+  font-style: italic;
+  /* color: blue; */
+  cursor: pointer;
+}
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  color: #333;
+  background-image: linear-gradient(to top left, #12b181 0%, #ac1d81 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  /* position: relative;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid black;
+  font-size: x-large;
+  font-family: sans-serif;
+  margin: 100;
+  padding: 50;
+
+  overflow: visible; */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-125px);
+
+  color: #160404;
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 1000;
+  transition: all 0.2s;
+
+  background-color: rgb(56, 42, 173);
+  background-color: rgba(129, 123, 123, 0.6);
+  /* backdrop-filter: blur(10px); */
+
+  padding: 0.7rem 2.5rem;
+  border-radius: 100rem;
+  box-shadow: 0 1.75rem 3.5rem rgba(168, 23, 23, 0.1);
+}
+.btn-new::first-letter {
+  font-size: 2.4rem;
+  display: inline-block;
+}
+.btn-new:focus {
+  outline: none;
+}
+.btn-new:active {
+  transform: translate(-50%, 3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+.btn-new {
+  top: 10rem;
+}
+.x {
+  color: rgb(64, 243, 9);
+  font-size: 80px;
+}
+
+.o {
+  color: rgb(251, 255, 0);
+  font-size: 80px;
+}
+.win {
+  background-color: rgb(13, 13, 14);
+  background-image: none;
+}
+.object {
+  transform: translate3D(10000000px);
+  border: 5px groove #701e1e;
+  box-shadow: 0 1rem 2rem rgba(153, 25, 25, 0.15);
+  transition: all 0.2s;
+}
+.body {
+  background-image: linear-gradient(to top left, #64ff0b 0%, #f3eaf0 100%);
+}
